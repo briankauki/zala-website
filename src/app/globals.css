@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --zala-green: #0D8354;
+  --zala-green-dark: #0A6B44;
+  --zala-yellow: #FFB800;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #0A6B44;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+}
+
+:focus-visible {
+  outline: 2px solid var(--zala-yellow);
+  outline-offset: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F0F7F4;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--zala-green);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--zala-green-dark);
+}
+
+::selection {
+  background: var(--zala-yellow);
+  color: var(--zala-green-dark);
+}
+
+.zala-glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(13, 131, 84, 0.1);
+}
+
+.zala-glass-dark {
+  background: rgba(13, 131, 84, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
