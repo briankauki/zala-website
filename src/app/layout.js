@@ -19,6 +19,9 @@ export const metadata = {
     'Download ZALA',
     'ZALA official website',
   ],
+  verification: {
+    google: 'pjB6icseEJ42oLBS9WPsuKz77A0nXecnibMtOlEKopU',
+  },
   authors: [{ name: 'ZALA' }],
   creator: 'ZALA',
   publisher: 'ZALA',
