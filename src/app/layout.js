@@ -20,7 +20,7 @@ export const metadata = {
     'ZALA official website',
   ],
   verification: {
-    google: 'pjB6icseEJ42oLBS9WPsuKz77A0nXecnibMtOlEKopU',
+    google: 'G04JFg-bx_r3o4hqd4kaGBPZXcc8Y5vXiDRP5dI7I9k',
   },
   authors: [{ name: 'ZALA' }],
   creator: 'ZALA',
